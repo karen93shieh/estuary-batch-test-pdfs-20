@@ -19,7 +19,9 @@
           "name": "Calloway Everhart: Relationships and Secrets",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-003-delphine",
@@ -45,7 +47,9 @@
           "name": "Delphine Norwood: Chronicle 1",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-009-jorah",
@@ -66,7 +70,9 @@
           "name": "Jorah Okonkwo: Relationships and Secrets",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     }
   ]
 }

@@ -14,7 +14,9 @@
           "name": "Baptiste Thornbury dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-002-calloway",
@@ -35,7 +37,9 @@
           "name": "Calloway Everhart: Relationships and Secrets",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-003-delphine",
@@ -61,7 +65,9 @@
           "name": "Delphine Norwood: Chronicle 1",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-004-eamon",
@@ -77,7 +83,9 @@
           "name": "Eamon Grimsby dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-005-farida",
@@ -93,7 +101,9 @@
           "name": "Farida Corvane dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-006-gideon",
@@ -109,7 +119,9 @@
           "name": "Gideon Norwood dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-007-halcyon",
@@ -125,7 +137,9 @@
           "name": "Halcyon Hartwell dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-008-imogen",
@@ -141,7 +155,9 @@
           "name": "Imogen Quenneville dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-009-jorah",
@@ -162,7 +178,9 @@
           "name": "Jorah Okonkwo: Relationships and Secrets",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     },
     {
       "customId": "test-npc-010-kwame",
@@ -178,7 +196,9 @@
           "name": "Kwame Norwood dossier",
           "type": "pdf"
         }
-      ]
+      ],
+      "llm_provider": "openai",
+      "llm_model": "gpt-5-nano"
     }
   ]
 }

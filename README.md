@@ -24,6 +24,16 @@ Files:
 - `probe.py`: asks each created character its answer-key questions over the `/sdk` chat socket.
 - `generate_pdfs.py` + `generate_pdfs_20.py`: regenerate the set.
 
+## Model used by the items
+
+Every item sets `"llm_provider": "openai", "llm_model": "gpt-5-nano"`. Without
+those fields a character inherits the platform default, `gpt-5-mini`, which
+OpenAI only serves to verified organizations; an unverified key fails every
+turn with a 404 and the dashboard shows nothing. Change or delete the two
+fields to test another model (for example `"llm_provider": "google",
+`"llm_model": "gemini-2.5-flash"`). If you regenerate the set, re-add them; the
+generator does not write them.
+
 ## Reproduce with curl
 
 Bash (Git Bash on Windows works). `jq` is optional but the examples use it.
