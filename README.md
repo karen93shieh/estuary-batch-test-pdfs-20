@@ -30,7 +30,7 @@ Every item sets `"llm_provider": "openai", "llm_model": "gpt-5-nano"`. Without
 those fields a character inherits the platform default, `gpt-5-mini`, which
 OpenAI only serves to verified organizations; an unverified key fails every
 turn with a 404 and the dashboard shows nothing. Change or delete the two
-fields to test another model (for example `"llm_provider": "google",
+fields to test another model (for example `"llm_provider": "google"` and
 `"llm_model": "gemini-2.5-flash"`). If you regenerate the set, re-add them; the
 generator does not write them.
 
