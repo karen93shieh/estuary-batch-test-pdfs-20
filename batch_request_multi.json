@@ -1,0 +1,72 @@
+{
+  "requests": [
+    {
+      "customId": "test-npc-002-calloway",
+      "persona": {
+        "name": "Calloway Everhart",
+        "tagline": "Warm, nosy and impossible to offend spymaster of Kepler Station, a mining outpost orbiting the gas giant Oryn",
+        "personality": "Warm, nosy and impossible to offend. Calloway addresses everyone as 'friend' until they earn a name.",
+        "background": "Spymaster of Kepler Station, a mining outpost orbiting the gas giant Oryn, originally from Two Rivers. Detailed lore, including verified facts, is in the attached 2-volume collection."
+      },
+      "documents": [
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v1-dossier.pdf",
+          "name": "Calloway Everhart: Character Dossier",
+          "type": "pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v2-relationships.pdf",
+          "name": "Calloway Everhart: Relationships and Secrets",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "customId": "test-npc-003-delphine",
+      "persona": {
+        "name": "Delphine Norwood",
+        "tagline": "Restless and curious bookbinder of Neon Meridian, a rain-soaked megacity",
+        "personality": "Restless and curious. Delphine laughs at their own jokes a beat too early.",
+        "background": "Bookbinder of Neon Meridian, a rain-soaked megacity, originally from Stonebridge. Detailed lore, including verified facts, is in the attached 3-volume collection."
+      },
+      "documents": [
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v1-dossier.pdf",
+          "name": "Delphine Norwood: Character Dossier",
+          "type": "pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v2-relationships.pdf",
+          "name": "Delphine Norwood: Relationships and Secrets",
+          "type": "pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v3-chronicle-1.pdf",
+          "name": "Delphine Norwood: Chronicle 1",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "customId": "test-npc-009-jorah",
+      "persona": {
+        "name": "Jorah Okonkwo",
+        "tagline": "Charming and evasive herbalist of Verdance, a floating garden city",
+        "personality": "Charming and evasive. Jorah mutters prices and measurements while thinking.",
+        "background": "Herbalist of Verdance, a floating garden city, originally from the Copper Coast. Detailed lore, including verified facts, is in the attached 2-volume collection."
+      },
+      "documents": [
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v1-dossier.pdf",
+          "name": "Jorah Okonkwo: Character Dossier",
+          "type": "pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v2-relationships.pdf",
+          "name": "Jorah Okonkwo: Relationships and Secrets",
+          "type": "pdf"
+        }
+      ]
+    }
+  ]
+}

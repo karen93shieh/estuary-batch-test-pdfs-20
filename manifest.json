@@ -1,0 +1,1521 @@
+{
+  "seed": 20260906,
+  "base_url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs",
+  "pdf_count": 20,
+  "character_count": 16,
+  "characters_by_document_count": {
+    "1": 13,
+    "2": 2,
+    "3": 1
+  },
+  "characters": [
+    {
+      "index": 1,
+      "customId": "test-npc-001-baptiste",
+      "name": "Baptiste Thornbury",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 1,
+          "customId": "test-npc-001-baptiste",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/001-baptiste-thornbury.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/001-baptiste-thornbury.pdf",
+          "size_bytes": 6356,
+          "pages": 3,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "ship's engineer",
+        "setting": "the harbor town of Saltmarsh",
+        "tagline": "Competitive about everything ship's engineer of the harbor town of Saltmarsh",
+        "traits": "competitive about everything",
+        "speech": "gives directions by landmark, never by street name",
+        "age": 58,
+        "hometown": "the Mirefold",
+        "favorite_dish": "the tavern's fried plantains",
+        "pet_name": "Turnip",
+        "pet_species": "hedgehog",
+        "lucky_number": 949,
+        "password": "raven-fern",
+        "mentor": "Kwame Norwood",
+        "rival": "Orsolya Quenneville",
+        "friend": "Kwame Norwood",
+        "goal": "to finish the great ledger of the harbor town of Saltmarsh",
+        "fear": "the far side of the Old Quay",
+        "secret": "Baptiste sold a family heirloom to pay for Kwame Norwood's medicine and told everyone it was stolen."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Baptiste's favourite dish?",
+          "expect": "the tavern's fried plantains",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        },
+        {
+          "question": "What is Baptiste's lucky number?",
+          "expect": "949",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        },
+        {
+          "question": "What is the name of Baptiste's pet?",
+          "expect": "Turnip",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        },
+        {
+          "question": "What is the password to Baptiste's workshop?",
+          "expect": "raven-fern",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        },
+        {
+          "question": "Who is Baptiste's rival?",
+          "expect": "Orsolya Quenneville",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        },
+        {
+          "question": "Who taught Baptiste the trade?",
+          "expect": "Kwame Norwood",
+          "source_file": "pdfs/001-baptiste-thornbury.pdf"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "customId": "test-npc-002-calloway",
+      "name": "Calloway Everhart",
+      "document_count": 2,
+      "documents": [
+        {
+          "character_index": 2,
+          "customId": "test-npc-002-calloway",
+          "volume": 1,
+          "of": 2,
+          "kind": "dossier",
+          "file": "pdfs/002-calloway-everhart-v1-dossier.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v1-dossier.pdf",
+          "size_bytes": 4550,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        },
+        {
+          "character_index": 2,
+          "customId": "test-npc-002-calloway",
+          "volume": 2,
+          "of": 2,
+          "kind": "relationships",
+          "file": "pdfs/002-calloway-everhart-v2-relationships.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v2-relationships.pdf",
+          "size_bytes": 4113,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "spymaster",
+        "setting": "Kepler Station, a mining outpost orbiting the gas giant Oryn",
+        "tagline": "Warm, nosy and impossible to offend spymaster of Kepler Station, a mining outpost orbiting the gas giant Oryn",
+        "traits": "warm, nosy and impossible to offend",
+        "speech": "addresses everyone as 'friend' until they earn a name",
+        "age": 35,
+        "hometown": "Two Rivers",
+        "favorite_dish": "the tavern's tamarind chicken",
+        "pet_name": "Pebble",
+        "pet_species": "rabbit",
+        "lucky_number": 899,
+        "password": "ewe-brine",
+        "mentor": "Leocadia Ashgrove",
+        "rival": "Percival Thornbury",
+        "friend": "Leocadia Ashgrove",
+        "goal": "to reopen the shop their parents lost",
+        "fear": "running out of salt",
+        "secret": "Calloway cannot actually read the old script everyone assumes they can, and has memorised the important pages."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Calloway's favourite dish?",
+          "expect": "the tavern's tamarind chicken",
+          "source_file": "pdfs/002-calloway-everhart-v1-dossier.pdf"
+        },
+        {
+          "question": "What is Calloway's lucky number?",
+          "expect": "899",
+          "source_file": "pdfs/002-calloway-everhart-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the name of Calloway's pet?",
+          "expect": "Pebble",
+          "source_file": "pdfs/002-calloway-everhart-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the password to Calloway's workshop?",
+          "expect": "ewe-brine",
+          "source_file": "pdfs/002-calloway-everhart-v2-relationships.pdf"
+        },
+        {
+          "question": "Who is Calloway's rival?",
+          "expect": "Percival Thornbury",
+          "source_file": "pdfs/002-calloway-everhart-v2-relationships.pdf"
+        },
+        {
+          "question": "Who taught Calloway the trade?",
+          "expect": "Leocadia Ashgrove",
+          "source_file": "pdfs/002-calloway-everhart-v2-relationships.pdf"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "customId": "test-npc-003-delphine",
+      "name": "Delphine Norwood",
+      "document_count": 3,
+      "documents": [
+        {
+          "character_index": 3,
+          "customId": "test-npc-003-delphine",
+          "volume": 1,
+          "of": 3,
+          "kind": "dossier",
+          "file": "pdfs/003-delphine-norwood-v1-dossier.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v1-dossier.pdf",
+          "size_bytes": 4355,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        },
+        {
+          "character_index": 3,
+          "customId": "test-npc-003-delphine",
+          "volume": 2,
+          "of": 3,
+          "kind": "relationships",
+          "file": "pdfs/003-delphine-norwood-v2-relationships.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v2-relationships.pdf",
+          "size_bytes": 3548,
+          "pages": 1,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        },
+        {
+          "character_index": 3,
+          "customId": "test-npc-003-delphine",
+          "volume": 3,
+          "of": 3,
+          "kind": "chronicle",
+          "file": "pdfs/003-delphine-norwood-v3-chronicle-1.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v3-chronicle-1.pdf",
+          "size_bytes": 14973,
+          "pages": 7,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "bookbinder",
+        "setting": "Neon Meridian, a rain-soaked megacity",
+        "tagline": "Restless and curious bookbinder of Neon Meridian, a rain-soaked megacity",
+        "traits": "restless and curious",
+        "speech": "laughs at their own jokes a beat too early",
+        "age": 41,
+        "hometown": "Stonebridge",
+        "favorite_dish": "grandmother's cold buckwheat noodles",
+        "pet_name": "Pip",
+        "pet_species": "crow",
+        "lucky_number": 491,
+        "password": "cedar-yarrow",
+        "mentor": "Matthias Duskmere",
+        "rival": "Qadira Jessop",
+        "friend": "Matthias Duskmere",
+        "goal": "to build a boat with no nails in it",
+        "fear": "birds indoors",
+        "secret": "Delphine secretly funds an orphanage in Stonebridge and would be mortified if anyone found out."
+      },
+      "possessions": [
+        {
+          "thing": "coil of rope",
+          "called": "The Apology"
+        }
+      ],
+      "retrieval_checks": [
+        {
+          "question": "What is Delphine's favourite dish?",
+          "expect": "grandmother's cold buckwheat noodles",
+          "source_file": "pdfs/003-delphine-norwood-v1-dossier.pdf"
+        },
+        {
+          "question": "What is Delphine's lucky number?",
+          "expect": "491",
+          "source_file": "pdfs/003-delphine-norwood-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the name of Delphine's pet?",
+          "expect": "Pip",
+          "source_file": "pdfs/003-delphine-norwood-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the password to Delphine's workshop?",
+          "expect": "cedar-yarrow",
+          "source_file": "pdfs/003-delphine-norwood-v2-relationships.pdf"
+        },
+        {
+          "question": "Who is Delphine's rival?",
+          "expect": "Qadira Jessop",
+          "source_file": "pdfs/003-delphine-norwood-v2-relationships.pdf"
+        },
+        {
+          "question": "Who taught Delphine the trade?",
+          "expect": "Matthias Duskmere",
+          "source_file": "pdfs/003-delphine-norwood-v2-relationships.pdf"
+        },
+        {
+          "question": "What does Delphine call the coil of rope?",
+          "expect": "The Apology",
+          "source_file": "pdfs/003-delphine-norwood-v3-chronicle-1.pdf"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "customId": "test-npc-004-eamon",
+      "name": "Eamon Grimsby",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 4,
+          "customId": "test-npc-004-eamon",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/004-eamon-grimsby.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/004-eamon-grimsby.pdf",
+          "size_bytes": 23585,
+          "pages": 12,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "salvage pilot",
+        "setting": "the Academy of Vell",
+        "tagline": "Boisterous, generous, easily bored salvage pilot of the Academy of Vell",
+        "traits": "boisterous, generous, easily bored",
+        "speech": "narrates their own actions under their breath",
+        "age": 22,
+        "hometown": "Oldbridge",
+        "favorite_dish": "midnight peach hand pies",
+        "pet_name": "Bramble",
+        "pet_species": "parrot",
+        "lucky_number": 585,
+        "password": "kelp-vane",
+        "mentor": "Nadira Merriwether",
+        "rival": "Baptiste Thornbury",
+        "friend": "Nadira Merriwether",
+        "goal": "to win the harvest fair for the fifth time",
+        "fear": "the bells at midnight",
+        "secret": "Eamon once forged a letter of passage for a stranger who turned out to be a wanted person, and still keeps the copy."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Eamon's favourite dish?",
+          "expect": "midnight peach hand pies",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        },
+        {
+          "question": "What is Eamon's lucky number?",
+          "expect": "585",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        },
+        {
+          "question": "What is the name of Eamon's pet?",
+          "expect": "Bramble",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        },
+        {
+          "question": "What is the password to Eamon's workshop?",
+          "expect": "kelp-vane",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        },
+        {
+          "question": "Who is Eamon's rival?",
+          "expect": "Baptiste Thornbury",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        },
+        {
+          "question": "Who taught Eamon the trade?",
+          "expect": "Nadira Merriwether",
+          "source_file": "pdfs/004-eamon-grimsby.pdf"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "customId": "test-npc-005-farida",
+      "name": "Farida Corvane",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 5,
+          "customId": "test-npc-005-farida",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/005-farida-corvane.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/005-farida-corvane.pdf",
+          "size_bytes": 6224,
+          "pages": 3,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "cartographer",
+        "setting": "the Dust Road caravan routes",
+        "tagline": "Cynical mentor who wants to be proven wrong cartographer of the Dust Road caravan routes",
+        "traits": "cynical mentor who wants to be proven wrong",
+        "speech": "ends sentences with 'you understand?'",
+        "age": 19,
+        "hometown": "Caldera Row",
+        "favorite_dish": "festival eel pie",
+        "pet_name": "Bellows",
+        "pet_species": "goat",
+        "lucky_number": 613,
+        "password": "gale-cinder",
+        "mentor": "Orsolya Quenneville",
+        "rival": "Calloway Everhart",
+        "friend": "Orsolya Quenneville",
+        "goal": "to be trusted by the Caravaners' Compact again",
+        "fear": "losing their sense of smell",
+        "secret": "Farida keeps a list of everyone who has ever been kind to them, and repays each one eventually."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Farida's favourite dish?",
+          "expect": "festival eel pie",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        },
+        {
+          "question": "What is Farida's lucky number?",
+          "expect": "613",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        },
+        {
+          "question": "What is the name of Farida's pet?",
+          "expect": "Bellows",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        },
+        {
+          "question": "What is the password to Farida's workshop?",
+          "expect": "gale-cinder",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        },
+        {
+          "question": "Who is Farida's rival?",
+          "expect": "Calloway Everhart",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        },
+        {
+          "question": "Who taught Farida the trade?",
+          "expect": "Orsolya Quenneville",
+          "source_file": "pdfs/005-farida-corvane.pdf"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "customId": "test-npc-006-gideon",
+      "name": "Gideon Norwood",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 6,
+          "customId": "test-npc-006-gideon",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/006-gideon-norwood.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/006-gideon-norwood.pdf",
+          "size_bytes": 4740,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "ship's engineer",
+        "setting": "the Emerald Court of Ardenne",
+        "tagline": "Loyal to a fault ship's engineer of the Emerald Court of Ardenne",
+        "traits": "loyal to a fault",
+        "speech": "ends sentences with 'you understand?'",
+        "age": 41,
+        "hometown": "the Copper Coast",
+        "favorite_dish": "charred cardamom buns",
+        "pet_name": "Pebble",
+        "pet_species": "hedgehog",
+        "lucky_number": 966,
+        "password": "juniper-lattice",
+        "mentor": "Percival Thornbury",
+        "rival": "Delphine Norwood",
+        "friend": "Percival Thornbury",
+        "goal": "to build a boat with no nails in it",
+        "fear": "losing their sense of smell",
+        "secret": "Gideon cannot actually read the old script everyone assumes they can, and has memorised the important pages."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Gideon's favourite dish?",
+          "expect": "charred cardamom buns",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        },
+        {
+          "question": "What is Gideon's lucky number?",
+          "expect": "966",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        },
+        {
+          "question": "What is the name of Gideon's pet?",
+          "expect": "Pebble",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        },
+        {
+          "question": "What is the password to Gideon's workshop?",
+          "expect": "juniper-lattice",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        },
+        {
+          "question": "Who is Gideon's rival?",
+          "expect": "Delphine Norwood",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        },
+        {
+          "question": "Who taught Gideon the trade?",
+          "expect": "Percival Thornbury",
+          "source_file": "pdfs/006-gideon-norwood.pdf"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "customId": "test-npc-007-halcyon",
+      "name": "Halcyon Hartwell",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 7,
+          "customId": "test-npc-007-halcyon",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/007-halcyon-hartwell.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/007-halcyon-hartwell.pdf",
+          "size_bytes": 26767,
+          "pages": 12,
+          "facts_extractable": true,
+          "has_cjk_section": true
+        }
+      ],
+      "facts": {
+        "role": "salvage pilot",
+        "setting": "Lumen Falls, a small mountain town in 1987",
+        "tagline": "Shy, brilliant and defensive salvage pilot of Lumen Falls, a small mountain town in 1987",
+        "traits": "shy, brilliant and defensive",
+        "speech": "answers a question with a question before giving a real answer",
+        "age": 47,
+        "hometown": "Kettering",
+        "favorite_dish": "hand-rolled oat and ale bread",
+        "pet_name": "Whistle",
+        "pet_species": "beetle",
+        "lucky_number": 139,
+        "password": "thorn-willow",
+        "mentor": "Qadira Jessop",
+        "rival": "Eamon Grimsby",
+        "friend": "Qadira Jessop",
+        "goal": "to map every path through the Falls Diner",
+        "fear": "losing their sense of smell",
+        "secret": "Halcyon secretly funds an orphanage in Kettering and would be mortified if anyone found out."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Halcyon's favourite dish?",
+          "expect": "hand-rolled oat and ale bread",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        },
+        {
+          "question": "What is Halcyon's lucky number?",
+          "expect": "139",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        },
+        {
+          "question": "What is the name of Halcyon's pet?",
+          "expect": "Whistle",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        },
+        {
+          "question": "What is the password to Halcyon's workshop?",
+          "expect": "thorn-willow",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        },
+        {
+          "question": "Who is Halcyon's rival?",
+          "expect": "Eamon Grimsby",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        },
+        {
+          "question": "Who taught Halcyon the trade?",
+          "expect": "Qadira Jessop",
+          "source_file": "pdfs/007-halcyon-hartwell.pdf"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "customId": "test-npc-008-imogen",
+      "name": "Imogen Quenneville",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 8,
+          "customId": "test-npc-008-imogen",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/008-imogen-quenneville.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/008-imogen-quenneville.pdf",
+          "size_bytes": 17911,
+          "pages": 9,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "spymaster",
+        "setting": "the Drowned Library beneath Old Cassilon",
+        "tagline": "Charming and evasive spymaster of the Drowned Library beneath Old Cassilon",
+        "traits": "charming and evasive",
+        "speech": "uses trade jargon and then patiently explains it",
+        "age": 22,
+        "hometown": "Little Ashby",
+        "favorite_dish": "midnight honey cakes",
+        "pet_name": "Ollie",
+        "pet_species": "owl",
+        "lucky_number": 595,
+        "password": "umber-lattice",
+        "mentor": "Baptiste Thornbury",
+        "rival": "Farida Corvane",
+        "friend": "Baptiste Thornbury",
+        "goal": "to build a boat with no nails in it",
+        "fear": "the far side of the Reading Well",
+        "secret": "Imogen has never told Baptiste Thornbury that the famous 'accident' was deliberate."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Imogen's favourite dish?",
+          "expect": "midnight honey cakes",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        },
+        {
+          "question": "What is Imogen's lucky number?",
+          "expect": "595",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        },
+        {
+          "question": "What is the name of Imogen's pet?",
+          "expect": "Ollie",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        },
+        {
+          "question": "What is the password to Imogen's workshop?",
+          "expect": "umber-lattice",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        },
+        {
+          "question": "Who is Imogen's rival?",
+          "expect": "Farida Corvane",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        },
+        {
+          "question": "Who taught Imogen the trade?",
+          "expect": "Baptiste Thornbury",
+          "source_file": "pdfs/008-imogen-quenneville.pdf"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "customId": "test-npc-009-jorah",
+      "name": "Jorah Okonkwo",
+      "document_count": 2,
+      "documents": [
+        {
+          "character_index": 9,
+          "customId": "test-npc-009-jorah",
+          "volume": 1,
+          "of": 2,
+          "kind": "dossier",
+          "file": "pdfs/009-jorah-okonkwo-v1-dossier.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v1-dossier.pdf",
+          "size_bytes": 4308,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        },
+        {
+          "character_index": 9,
+          "customId": "test-npc-009-jorah",
+          "volume": 2,
+          "of": 2,
+          "kind": "relationships",
+          "file": "pdfs/009-jorah-okonkwo-v2-relationships.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v2-relationships.pdf",
+          "size_bytes": 3539,
+          "pages": 1,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "herbalist",
+        "setting": "Verdance, a floating garden city",
+        "tagline": "Charming and evasive herbalist of Verdance, a floating garden city",
+        "traits": "charming and evasive",
+        "speech": "mutters prices and measurements while thinking",
+        "age": 46,
+        "hometown": "the Copper Coast",
+        "favorite_dish": "the tavern's eel pie",
+        "pet_name": "Tuesday",
+        "pet_species": "owl",
+        "lucky_number": 517,
+        "password": "linen-wick",
+        "mentor": "Calloway Everhart",
+        "rival": "Gideon Norwood",
+        "friend": "Calloway Everhart",
+        "goal": "to map every path through the Canopy Walk",
+        "fear": "fire in enclosed spaces",
+        "secret": "Jorah cannot actually read the old script everyone assumes they can, and has memorised the important pages."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Jorah's favourite dish?",
+          "expect": "the tavern's eel pie",
+          "source_file": "pdfs/009-jorah-okonkwo-v1-dossier.pdf"
+        },
+        {
+          "question": "What is Jorah's lucky number?",
+          "expect": "517",
+          "source_file": "pdfs/009-jorah-okonkwo-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the name of Jorah's pet?",
+          "expect": "Tuesday",
+          "source_file": "pdfs/009-jorah-okonkwo-v1-dossier.pdf"
+        },
+        {
+          "question": "What is the password to Jorah's workshop?",
+          "expect": "linen-wick",
+          "source_file": "pdfs/009-jorah-okonkwo-v2-relationships.pdf"
+        },
+        {
+          "question": "Who is Jorah's rival?",
+          "expect": "Gideon Norwood",
+          "source_file": "pdfs/009-jorah-okonkwo-v2-relationships.pdf"
+        },
+        {
+          "question": "Who taught Jorah the trade?",
+          "expect": "Calloway Everhart",
+          "source_file": "pdfs/009-jorah-okonkwo-v2-relationships.pdf"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "customId": "test-npc-010-kwame",
+      "name": "Kwame Norwood",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 10,
+          "customId": "test-npc-010-kwame",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/010-kwame-norwood.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/010-kwame-norwood.pdf",
+          "size_bytes": 8552,
+          "pages": 4,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "ring announcer",
+        "setting": "the Frostwall garrison on the northern border",
+        "tagline": "Kind in deeds, sharp in words ring announcer of the Frostwall garrison on the northern border",
+        "traits": "kind in deeds, sharp in words",
+        "speech": "quotes half-remembered proverbs, often wrongly",
+        "age": 42,
+        "hometown": "Dry Harbor",
+        "favorite_dish": "hand-rolled fried plantains",
+        "pet_name": "Pockets",
+        "pet_species": "owl",
+        "lucky_number": 415,
+        "password": "heron-tallow",
+        "mentor": "Delphine Norwood",
+        "rival": "Halcyon Hartwell",
+        "friend": "Delphine Norwood",
+        "goal": "to win the harvest fair for the fifth time",
+        "fear": "mirrors in the dark",
+        "secret": "Kwame has never told Delphine Norwood that the famous 'accident' was deliberate."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Kwame's favourite dish?",
+          "expect": "hand-rolled fried plantains",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        },
+        {
+          "question": "What is Kwame's lucky number?",
+          "expect": "415",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        },
+        {
+          "question": "What is the name of Kwame's pet?",
+          "expect": "Pockets",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        },
+        {
+          "question": "What is the password to Kwame's workshop?",
+          "expect": "heron-tallow",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        },
+        {
+          "question": "Who is Kwame's rival?",
+          "expect": "Halcyon Hartwell",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        },
+        {
+          "question": "Who taught Kwame the trade?",
+          "expect": "Delphine Norwood",
+          "source_file": "pdfs/010-kwame-norwood.pdf"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "customId": "test-npc-011-leocadia",
+      "name": "Leocadia Ashgrove",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 11,
+          "customId": "test-npc-011-leocadia",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/011-leocadia-ashgrove.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/011-leocadia-ashgrove.pdf",
+          "size_bytes": 114340,
+          "pages": 57,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "stable hand",
+        "setting": "Bellwether Farms, an agricultural cooperative on Mars",
+        "tagline": "Boisterous, generous, easily bored stable hand of Bellwether Farms, an agricultural cooperative on Mars",
+        "traits": "boisterous, generous, easily bored",
+        "speech": "quotes half-remembered proverbs, often wrongly",
+        "age": 22,
+        "hometown": "the Mirefold",
+        "favorite_dish": "charred cold buckwheat noodles",
+        "pet_name": "Pockets",
+        "pet_species": "raven",
+        "lucky_number": 278,
+        "password": "meadow-pepper",
+        "mentor": "Eamon Grimsby",
+        "rival": "Imogen Quenneville",
+        "friend": "Eamon Grimsby",
+        "goal": "to be trusted by the Bellwether Cooperative again",
+        "fear": "mirrors in the dark",
+        "secret": "Leocadia secretly funds an orphanage in the Mirefold and would be mortified if anyone found out."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Leocadia's favourite dish?",
+          "expect": "charred cold buckwheat noodles",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        },
+        {
+          "question": "What is Leocadia's lucky number?",
+          "expect": "278",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        },
+        {
+          "question": "What is the name of Leocadia's pet?",
+          "expect": "Pockets",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        },
+        {
+          "question": "What is the password to Leocadia's workshop?",
+          "expect": "meadow-pepper",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        },
+        {
+          "question": "Who is Leocadia's rival?",
+          "expect": "Imogen Quenneville",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        },
+        {
+          "question": "Who taught Leocadia the trade?",
+          "expect": "Eamon Grimsby",
+          "source_file": "pdfs/011-leocadia-ashgrove.pdf"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "customId": "test-npc-012-matthias",
+      "name": "Matthias Duskmere",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 12,
+          "customId": "test-npc-012-matthias",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/012-matthias-duskmere.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/012-matthias-duskmere.pdf",
+          "size_bytes": 8273,
+          "pages": 4,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "glassblower",
+        "setting": "the traveling Circus of Marrow and Light",
+        "tagline": "Sunny and relentlessly optimistic glassblower of the traveling Circus of Marrow and Light",
+        "traits": "sunny and relentlessly optimistic",
+        "speech": "never uses contractions and apologises for it",
+        "age": 29,
+        "hometown": "Hessen Cross",
+        "favorite_dish": "twice-cooked cardamom buns",
+        "pet_name": "Amos",
+        "pet_species": "parrot",
+        "lucky_number": 296,
+        "password": "fable-quill",
+        "mentor": "Farida Corvane",
+        "rival": "Jorah Okonkwo",
+        "friend": "Farida Corvane",
+        "goal": "to win the harvest fair for the fifth time",
+        "fear": "letting people down",
+        "secret": "Matthias sold a family heirloom to pay for Farida Corvane's medicine and told everyone it was stolen."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Matthias's favourite dish?",
+          "expect": "twice-cooked cardamom buns",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        },
+        {
+          "question": "What is Matthias's lucky number?",
+          "expect": "296",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        },
+        {
+          "question": "What is the name of Matthias's pet?",
+          "expect": "Amos",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        },
+        {
+          "question": "What is the password to Matthias's workshop?",
+          "expect": "fable-quill",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        },
+        {
+          "question": "Who is Matthias's rival?",
+          "expect": "Jorah Okonkwo",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        },
+        {
+          "question": "Who taught Matthias the trade?",
+          "expect": "Farida Corvane",
+          "source_file": "pdfs/012-matthias-duskmere.pdf"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "customId": "test-npc-013-nadira",
+      "name": "Nadira Merriwether",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 13,
+          "customId": "test-npc-013-nadira",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/013-nadira-merriwether.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/013-nadira-merriwether.pdf",
+          "size_bytes": 144584,
+          "pages": 73,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "glassblower",
+        "setting": "the Dust Road caravan routes",
+        "tagline": "Fiercely protective of newcomers glassblower of the Dust Road caravan routes",
+        "traits": "fiercely protective of newcomers",
+        "speech": "laughs at their own jokes a beat too early",
+        "age": 36,
+        "hometown": "Verity Falls",
+        "favorite_dish": "festival roast root vegetables",
+        "pet_name": "Yolk",
+        "pet_species": "hawk",
+        "lucky_number": 158,
+        "password": "slate-harbor",
+        "mentor": "Gideon Norwood",
+        "rival": "Kwame Norwood",
+        "friend": "Gideon Norwood",
+        "goal": "to earn the title of master before turning fifty",
+        "fear": "a knock at the door after dark",
+        "secret": "Nadira writes poetry under the pen name 'The Slate' and has a small, devoted readership."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Nadira's favourite dish?",
+          "expect": "festival roast root vegetables",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        },
+        {
+          "question": "What is Nadira's lucky number?",
+          "expect": "158",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        },
+        {
+          "question": "What is the name of Nadira's pet?",
+          "expect": "Yolk",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        },
+        {
+          "question": "What is the password to Nadira's workshop?",
+          "expect": "slate-harbor",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        },
+        {
+          "question": "Who is Nadira's rival?",
+          "expect": "Kwame Norwood",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        },
+        {
+          "question": "Who taught Nadira the trade?",
+          "expect": "Gideon Norwood",
+          "source_file": "pdfs/013-nadira-merriwether.pdf"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "customId": "test-npc-014-orsolya",
+      "name": "Orsolya Quenneville",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 14,
+          "customId": "test-npc-014-orsolya",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/014-orsolya-quenneville.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/014-orsolya-quenneville.pdf",
+          "size_bytes": 55997,
+          "pages": 28,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "alchemist",
+        "setting": "the traveling Circus of Marrow and Light",
+        "tagline": "Meticulous and easily flustered alchemist of the traveling Circus of Marrow and Light",
+        "traits": "meticulous and easily flustered",
+        "speech": "never uses contractions and apologises for it",
+        "age": 56,
+        "hometown": "Dry Harbor",
+        "favorite_dish": "grandmother's chestnut soup",
+        "pet_name": "Biscuit",
+        "pet_species": "raven",
+        "lucky_number": 323,
+        "password": "ember-cove",
+        "mentor": "Halcyon Hartwell",
+        "rival": "Leocadia Ashgrove",
+        "friend": "Halcyon Hartwell",
+        "goal": "to build a boat with no nails in it",
+        "fear": "running out of salt",
+        "secret": "Orsolya has a sibling nobody in the traveling Circus of Marrow and Light knows about, living quietly in Dry Harbor."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Orsolya's favourite dish?",
+          "expect": "grandmother's chestnut soup",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        },
+        {
+          "question": "What is Orsolya's lucky number?",
+          "expect": "323",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        },
+        {
+          "question": "What is the name of Orsolya's pet?",
+          "expect": "Biscuit",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        },
+        {
+          "question": "What is the password to Orsolya's workshop?",
+          "expect": "ember-cove",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        },
+        {
+          "question": "Who is Orsolya's rival?",
+          "expect": "Leocadia Ashgrove",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        },
+        {
+          "question": "Who taught Orsolya the trade?",
+          "expect": "Halcyon Hartwell",
+          "source_file": "pdfs/014-orsolya-quenneville.pdf"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "customId": "test-npc-015-percival",
+      "name": "Percival Thornbury",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 15,
+          "customId": "test-npc-015-percival",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/015-percival-thornbury.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/015-percival-thornbury.pdf",
+          "size_bytes": 4755,
+          "pages": 2,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "herbalist",
+        "setting": "the Dust Road caravan routes",
+        "tagline": "Cautious, precise and haunted herbalist of the Dust Road caravan routes",
+        "traits": "cautious, precise and haunted",
+        "speech": "never uses contractions and apologises for it",
+        "age": 51,
+        "hometown": "Halvard",
+        "favorite_dish": "twice-cooked ginger duck",
+        "pet_name": "Ollie",
+        "pet_species": "tortoise",
+        "lucky_number": 923,
+        "password": "oak-nutmeg",
+        "mentor": "Imogen Quenneville",
+        "rival": "Matthias Duskmere",
+        "friend": "Imogen Quenneville",
+        "goal": "to earn the title of master before turning fifty",
+        "fear": "crowds that go quiet all at once",
+        "secret": "Percival has a sibling nobody in the Dust Road caravan routes knows about, living quietly in Halvard."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Percival's favourite dish?",
+          "expect": "twice-cooked ginger duck",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        },
+        {
+          "question": "What is Percival's lucky number?",
+          "expect": "923",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        },
+        {
+          "question": "What is the name of Percival's pet?",
+          "expect": "Ollie",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        },
+        {
+          "question": "What is the password to Percival's workshop?",
+          "expect": "oak-nutmeg",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        },
+        {
+          "question": "Who is Percival's rival?",
+          "expect": "Matthias Duskmere",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        },
+        {
+          "question": "Who taught Percival the trade?",
+          "expect": "Imogen Quenneville",
+          "source_file": "pdfs/015-percival-thornbury.pdf"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "customId": "test-npc-016-qadira",
+      "name": "Qadira Jessop",
+      "document_count": 1,
+      "documents": [
+        {
+          "character_index": 16,
+          "customId": "test-npc-016-qadira",
+          "volume": 1,
+          "of": 1,
+          "kind": "single",
+          "file": "pdfs/016-qadira-jessop.pdf",
+          "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/016-qadira-jessop.pdf",
+          "size_bytes": 22577,
+          "pages": 11,
+          "facts_extractable": true,
+          "has_cjk_section": false
+        }
+      ],
+      "facts": {
+        "role": "blacksmith",
+        "setting": "Lumen Falls, a small mountain town in 1987",
+        "tagline": "Restless and curious blacksmith of Lumen Falls, a small mountain town in 1987",
+        "traits": "restless and curious",
+        "speech": "compliments people before disagreeing with them",
+        "age": 73,
+        "hometown": "Fennick",
+        "favorite_dish": "twice-cooked fig and walnut bread",
+        "pet_name": "Comet",
+        "pet_species": "pigeon",
+        "lucky_number": 813,
+        "password": "thistle-moss",
+        "mentor": "Jorah Okonkwo",
+        "rival": "Nadira Merriwether",
+        "friend": "Jorah Okonkwo",
+        "goal": "to be forgotten by the people who remember the fire",
+        "fear": "crowds that go quiet all at once",
+        "secret": "Qadira writes poetry under the pen name 'The Thistle' and has a small, devoted readership."
+      },
+      "possessions": [],
+      "retrieval_checks": [
+        {
+          "question": "What is Qadira's favourite dish?",
+          "expect": "twice-cooked fig and walnut bread",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        },
+        {
+          "question": "What is Qadira's lucky number?",
+          "expect": "813",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        },
+        {
+          "question": "What is the name of Qadira's pet?",
+          "expect": "Comet",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        },
+        {
+          "question": "What is the password to Qadira's workshop?",
+          "expect": "thistle-moss",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        },
+        {
+          "question": "Who is Qadira's rival?",
+          "expect": "Nadira Merriwether",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        },
+        {
+          "question": "Who taught Qadira the trade?",
+          "expect": "Jorah Okonkwo",
+          "source_file": "pdfs/016-qadira-jessop.pdf"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "character_index": 1,
+      "customId": "test-npc-001-baptiste",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/001-baptiste-thornbury.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/001-baptiste-thornbury.pdf",
+      "size_bytes": 6356,
+      "pages": 3,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 2,
+      "customId": "test-npc-002-calloway",
+      "volume": 1,
+      "of": 2,
+      "kind": "dossier",
+      "file": "pdfs/002-calloway-everhart-v1-dossier.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v1-dossier.pdf",
+      "size_bytes": 4550,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 2,
+      "customId": "test-npc-002-calloway",
+      "volume": 2,
+      "of": 2,
+      "kind": "relationships",
+      "file": "pdfs/002-calloway-everhart-v2-relationships.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/002-calloway-everhart-v2-relationships.pdf",
+      "size_bytes": 4113,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 3,
+      "customId": "test-npc-003-delphine",
+      "volume": 1,
+      "of": 3,
+      "kind": "dossier",
+      "file": "pdfs/003-delphine-norwood-v1-dossier.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v1-dossier.pdf",
+      "size_bytes": 4355,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 3,
+      "customId": "test-npc-003-delphine",
+      "volume": 2,
+      "of": 3,
+      "kind": "relationships",
+      "file": "pdfs/003-delphine-norwood-v2-relationships.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v2-relationships.pdf",
+      "size_bytes": 3548,
+      "pages": 1,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 3,
+      "customId": "test-npc-003-delphine",
+      "volume": 3,
+      "of": 3,
+      "kind": "chronicle",
+      "file": "pdfs/003-delphine-norwood-v3-chronicle-1.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/003-delphine-norwood-v3-chronicle-1.pdf",
+      "size_bytes": 14973,
+      "pages": 7,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 4,
+      "customId": "test-npc-004-eamon",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/004-eamon-grimsby.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/004-eamon-grimsby.pdf",
+      "size_bytes": 23585,
+      "pages": 12,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 5,
+      "customId": "test-npc-005-farida",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/005-farida-corvane.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/005-farida-corvane.pdf",
+      "size_bytes": 6224,
+      "pages": 3,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 6,
+      "customId": "test-npc-006-gideon",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/006-gideon-norwood.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/006-gideon-norwood.pdf",
+      "size_bytes": 4740,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 7,
+      "customId": "test-npc-007-halcyon",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/007-halcyon-hartwell.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/007-halcyon-hartwell.pdf",
+      "size_bytes": 26767,
+      "pages": 12,
+      "facts_extractable": true,
+      "has_cjk_section": true
+    },
+    {
+      "character_index": 8,
+      "customId": "test-npc-008-imogen",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/008-imogen-quenneville.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/008-imogen-quenneville.pdf",
+      "size_bytes": 17911,
+      "pages": 9,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 9,
+      "customId": "test-npc-009-jorah",
+      "volume": 1,
+      "of": 2,
+      "kind": "dossier",
+      "file": "pdfs/009-jorah-okonkwo-v1-dossier.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v1-dossier.pdf",
+      "size_bytes": 4308,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 9,
+      "customId": "test-npc-009-jorah",
+      "volume": 2,
+      "of": 2,
+      "kind": "relationships",
+      "file": "pdfs/009-jorah-okonkwo-v2-relationships.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/009-jorah-okonkwo-v2-relationships.pdf",
+      "size_bytes": 3539,
+      "pages": 1,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 10,
+      "customId": "test-npc-010-kwame",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/010-kwame-norwood.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/010-kwame-norwood.pdf",
+      "size_bytes": 8552,
+      "pages": 4,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 11,
+      "customId": "test-npc-011-leocadia",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/011-leocadia-ashgrove.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/011-leocadia-ashgrove.pdf",
+      "size_bytes": 114340,
+      "pages": 57,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 12,
+      "customId": "test-npc-012-matthias",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/012-matthias-duskmere.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/012-matthias-duskmere.pdf",
+      "size_bytes": 8273,
+      "pages": 4,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 13,
+      "customId": "test-npc-013-nadira",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/013-nadira-merriwether.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/013-nadira-merriwether.pdf",
+      "size_bytes": 144584,
+      "pages": 73,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 14,
+      "customId": "test-npc-014-orsolya",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/014-orsolya-quenneville.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/014-orsolya-quenneville.pdf",
+      "size_bytes": 55997,
+      "pages": 28,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 15,
+      "customId": "test-npc-015-percival",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/015-percival-thornbury.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/015-percival-thornbury.pdf",
+      "size_bytes": 4755,
+      "pages": 2,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    },
+    {
+      "character_index": 16,
+      "customId": "test-npc-016-qadira",
+      "volume": 1,
+      "of": 1,
+      "kind": "single",
+      "file": "pdfs/016-qadira-jessop.pdf",
+      "url": "https://raw.githubusercontent.com/karen93shieh/estuary-batch-test-pdfs-20/main/pdfs/016-qadira-jessop.pdf",
+      "size_bytes": 22577,
+      "pages": 11,
+      "facts_extractable": true,
+      "has_cjk_section": false
+    }
+  ]
+}
